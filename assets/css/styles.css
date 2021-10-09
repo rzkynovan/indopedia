@@ -373,29 +373,7 @@ img {
 }
 
 /* Edukatif*/
-/* .edukatif__title {
-    width: 552px;
-    font-size: 48px;
-    font-weight: var(--font-semi-bold);
-    text-align: center;
-    margin: auto;
-    line-height: 58px;
-    margin-bottom: 4px;
-}
 
-.edukatif__subtitle {
-    display: block;
-    text-align: center;
-    font-size: 16px;
-    font-weight: var(--font-medium);
-    opacity: .6;
-    margin-bottom: 80px;
-} */
-/* .edukatif {
-    width: 1440px;
-    height: 761px;
-    margin: auto;
-} */
 .edukatif__title {
     display: flex;
     justify-content: center;
@@ -612,7 +590,7 @@ img {
 }
 
 .galery__active[data-content] {
-    display: block;
+    display: inline-flex;
 }
 
 .musik__container {
