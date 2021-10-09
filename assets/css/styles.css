@@ -590,7 +590,7 @@ img {
 }
 
 .galery__active[data-content] {
-    display: inline-flex;
+    display: flex;
 }
 
 .musik__container {
