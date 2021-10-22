@@ -140,8 +140,8 @@ body {
 }
 
 .content__title {
-    width: 323px;
-    height: 117px;
+    max-width: 323px;
+    height: auto;
     font-weight: 600;
     font-size: 39px;
     line-height: 58px;
@@ -149,6 +149,7 @@ body {
     margin-bottom: 15px;
 
 }
+
 
 .est {
     font-weight: 600;
@@ -228,6 +229,12 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
 
+}
+
+.button__musik:hover {
+    /* background-color: var(--green-collor); */
+    filter: none;
+    transition: .4s;
 }
 
 .musik__icon {
