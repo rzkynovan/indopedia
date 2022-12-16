@@ -670,7 +670,7 @@ img {
 .team__content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     width: 1360px;
 }
 
